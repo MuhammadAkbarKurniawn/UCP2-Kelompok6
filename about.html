@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automotive Car Garage - About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="logo/logo.png" alt="logo"> 
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="background-section">
+        <div class="background-image">
+            <img src="img/bg.jpg">
+        </div>
+        <div class="overlay">
+            <h1>Lorem Ipsum</h1>
+        </div>
+    </section>    
+
+    <section class="products-section">
+        <div class="product" onclick="openModal('product1', 'img/civic_r.jpg', 'Civic', 'Deskripsi untuk Civic 1')">
+            <img src="img/civic_r.jpg" alt="Product Image">
+            <h2>Civic</h2>
+            <p>Lorem Ipsum</p>
+        </div>
+        <div class="product" onclick="openModal('product2', 'img/civic.jpg', 'Civic', 'Deskripsi untuk Civic 2')">
+            <img src="img/civic.jpg" alt="Product Image">
+            <h2>Civic</h2>
+            <p>Lorem Ipsum</p>
+        </div>
+        <div class="product" onclick="openModal('product3', 'img/mobil_civic.jpg', 'Civic', 'Deskripsi untuk Civic 3')">
+            <img src="img/mobil_civic.jpg" alt="Product Image">
+            <h2>Civic</h2>
+            <p>Lorem Ipsum</p>
+        </div>
+    </section>
+
+    <section class="products-section">
+        <div class="product" onclick="openModal('product1', 'img/civic_r.jpg', 'Civic', 'Deskripsi untuk Civic 1')">
+            <img src="img/civic_r.jpg" alt="Product Image">
+            <h2>Civic</h2>
+            <p>Lorem Ipsum</p>
+        </div>
+        <div class="product" onclick="openModal('product2', 'img/civic.jpg', 'Civic', 'Deskripsi untuk Civic 2')">
+            <img src="img/civic.jpg" alt="Product Image">
+            <h2>Civic</h2>
+            <p>Lorem Ipsum</p>
+        </div>
+        <div class="product" onclick="openModal('product3', 'img/mobil_civic.jpg', 'Civic', 'Deskripsi untuk Civic 3')">
+            <img src="img/mobil_civic.jpg" alt="Product Image">
+            <h2>Civic</h2>
+            <p>Lorem Ipsum</p>
+        </div>
+    </section> 
+    
+    <section class="content-section">
+        <div class="text">
+            <h2>Lorem Ipsum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </section>
+
+    <section class="info-section">
+        <div class="details">
+            <div class="detail">
+                <div class="icon"><i class="fas fa-mobile-alt"></i></div>
+                <div class="text">
+                    <h3>Title 1</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati repudiandae praesentium ipsa.</p>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="icon"><i class="fas fa-laptop"></i></div>
+                <div class="text">
+                    <h3>Title 2</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati repudiandae praesentium ipsa.</p>
+                </div>
+            </div>
+        </div>
+        <div class="details">
+            <div class="detail">
+                <div class="icon"><i class="fas fa-globe"></i></div>
+                <div class="text">
+                    <h3>Title 3</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati repudiandae praesentium ipsa.</p>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="icon"><i class="fas fa-store"></i></div>
+                <div class="text">
+                    <h3>Title 4</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati repudiandae praesentium ipsa.</p>
+                </div>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="img/civic_r.jpg" alt="Image">
+        </div>
+    </section>
+    
+
+    <footer class="footer">
+        <div class="footer-left">
+            <img src="logo/logo.png" alt="logo"> 
+        </div>
+        <div class="footer-center">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-right">
+            <p><a href="mailto:akbar1107kurniawan@gmail.com">automotivecar@gmail.com</a></p>
+            <p><a href="https://wa.me/1234567890">123-456-7890</a></p>
+            <div class="social-icons">
+                <a href="mailto:akbar1107kurniawan@gmail.com"><i class="fas fa-envelope"></i></a> 
+                <a href="https://wa.me/1234567890"><i class="fas fa-phone"></i></a> 
+                <a href="https://www.instagram.com/makbarkurniawn_?igsh=MXh5MXdqOHlmZjNueA==" target="_blank"><i class="fab fa-instagram"></i></a> 
+                <a href="https://www.tiktok.com/@sarkapkap?_t=8nWvVTzUaKP&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a> 
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modal-image" src="" alt="Modal Image">
+            <h2 id="modal-title">Product Title</h2>
+            <p id="modal-description">Product description goes here.</p>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
