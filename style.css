@@ -575,6 +575,10 @@ form button:hover {
         background-position: center;
     }
 
+    .background-section h1{
+        font-size: 10px;
+    }
+
     .background-section img {
         width: 100%;
         height: auto;
